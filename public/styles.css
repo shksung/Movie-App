@@ -1,0 +1,39 @@
+
+
+.layout {
+    text-align: center;
+    font-family: "Lobster", Sans-serif;
+}
+#title {
+    text-align: center;
+    color: #4169E1
+}
+
+.center {
+    text-align:center
+}
+
+.picmargin {
+    margin-top: 2em ;
+    margin-bottom: 2em;
+    padding: 1em 1em 1em 1em
+}
+.pictext {
+    color:black;
+    margin-top: 3em ;
+}
+.picstyle {
+   border-color: black;
+   border-style:solid 
+}
+
+.imgframe{ 
+    background: black ;
+    padding:12px;
+    border:1px solid #999; }
+
+.textsize{
+    font-size: 0.8em
+}
+
+    
