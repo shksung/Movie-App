@@ -38,7 +38,7 @@ app.get('/movie/:movieId', (req, res) => {
 })
 
 app.get('/search', (req, res) => {
-    const q = req.query.search
+    const q = req.query.search // the part that comes after query has to equal what I put as "name" in the EJS file
     let searchApi = "https://api.themoviedb.org/3/search/movie?api_key=9dbfde2a8b6e92417ef7a6cc5cb516fd&query=" + q
     request(searchApi, function (err, response, body) {
         searchObject = JSON.parse(body)
